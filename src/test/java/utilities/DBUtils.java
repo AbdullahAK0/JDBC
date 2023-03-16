@@ -20,6 +20,7 @@ public class DBUtils {
         String url="jdbc:mysql://45.84.206.41:3306/u480337000_tlb_training";
         String username="u480337000_tbl_training_u";
         String password="pO9#4bmxU";
+
         try {
             connection = DriverManager.getConnection(url, username, password);
         } catch (SQLException e) {
@@ -117,6 +118,8 @@ public class DBUtils {
      */
 
     public static Object getCellValue(String query) {
+
+
         return getQueryResultList(query).get(0).get(0);
     }
     /**

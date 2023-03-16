@@ -1,5 +1,5 @@
 Feature: JDBC uzerinden Databse baglantisi kurularak ilk test
-  @jdbc
+@jdbc
   Scenario: Users tablosundan isimler testi.
 
     Given Database ile iletisimi baslat
